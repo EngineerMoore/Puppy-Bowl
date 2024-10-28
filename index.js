@@ -58,7 +58,7 @@ const renderEliteReinforcement = async () => {
     tr.innerHTML =`
       <td>${player.id}</td>
       <td class="name">${player.name}</td>
-      <td>${player.breed}</td>
+      <td class="breed">${player.breed}</td>
       `;
   })
 }
@@ -113,3 +113,11 @@ const selectSinglePlayer = async () => {
   })
 })}
 selectSinglePlayer()
+
+// Create a search bar
+  // when user types players name, their name will pop up
+  // display list of players
+  // render the player to the page
+const searchBar = () => {
+
+}
